@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_features",
+  "info": {
+    "displayName": "List",
+    "icon": "rotate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "ListItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.list"
+    }
+  }
+}

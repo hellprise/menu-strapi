@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_layout_nav_links",
+  "info": {
+    "displayName": "NavLinks",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "regex": "/^[A-Za-z0-9-_.~]*$\"",
+      "required": true,
+      "unique": true
+    }
+  }
+}
